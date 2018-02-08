@@ -12,8 +12,8 @@ list all powershell's permissions
 ``` shell
 [System.Enum]::GetNames([Microsoft.PowerShell.ExecutionPolicy])
 ```
-user execute
-win cmd invoke powershell's script file  %* mean pass argments
+user execute                                                                                                                                               
+win cmd invoke powershell's script file,  %* mean pass argments
 ``` shell
 PowerShell -NoProfile -ExecutionPolicy Bypass -File ".\echo.ps1" %*
 ```
