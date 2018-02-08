@@ -1,5 +1,5 @@
 # Powershell upload file sample
-in [MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF) has upload file api. on the windows platform we use powershell to call it.                                                                
+in [MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF) has upload(scan,delete_scan) file api. on the windows platform we use powershell to call it.                                                                
 first, running MOBSF,then run this script.
 
 ## Pwershell's some tricks

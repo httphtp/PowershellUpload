@@ -47,7 +47,7 @@ function Invoke-MultipartFormDataUpload
         }
 
         $httpClient = New-Object System.Net.Http.Httpclient $httpClientHandler
-        $httpClient.DefaultRequestHeaders.Authorization ='4eab9d74b836d08cda3997f5fe8d4fddd7c5a60240c2958d5faa454a0863857c'
+        $httpClient.DefaultRequestHeaders.Authorization ='563d64fc5054d3b239ac0419f1d6b2378465f5c80e1778c283eb1e3265bdd7ae'
         $packageFileStream = New-Object System.IO.FileStream @($InFile, [System.IO.FileMode]::Open)
         
 		$contentDispositionHeaderValue = New-Object System.Net.Http.Headers.ContentDispositionHeaderValue "form-data"
